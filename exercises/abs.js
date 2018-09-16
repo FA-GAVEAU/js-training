@@ -18,6 +18,9 @@ function abs(number) {
 	else if (number >= 0) {
 		return number;
 	}
+	else if (number === 0) {
+		return 0;
+	}
 }
 
 
