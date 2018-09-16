@@ -10,6 +10,41 @@
 
 // Your code :
 
+function multiply(n, m) {
+ 	let total = 0;
+ 	let x = 0;
+ 	let y = 0;
+  	if (n > 0) {
+  		x = n;
+  	}                              
+  	else {
+  		x = -n;
+  	}                              
+	if (m > 0) {
+  		y = m;
+  	}                              
+  	else {
+  		y = -m;
+  	}
+  	for (let i = 0; i < x; i++) {
+    	total += y;
+  	}
+  	if (n === 0 || m === 0) {        
+    	return 0;
+  	}
+  	else {
+  		if (n > 0 && m > 0 || n < 0 && m < 0) {  
+  			return total;
+  		}
+  		else {
+  			return -total;
+  		}
+	}                         
+}
+
+
+
+
 //* Begin of tests
 const assert = require('assert')
 

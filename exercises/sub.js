@@ -8,6 +8,10 @@
 
 // Your code :
 
+function sub(rand, patoucaramel) {
+	return rand - patoucaramel;
+}
+
 //* Begin of tests
 const assert = require('assert')
 const rand = Math.random()

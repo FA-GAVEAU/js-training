@@ -8,6 +8,12 @@
 
 // Your code :
 
+function add(rand, frt) {
+	return rand + frt;
+}
+
+
+
 //* Begin of tests
 const assert = require('assert')
 const rand = Math.random()
