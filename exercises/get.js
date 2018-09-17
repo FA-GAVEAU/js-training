@@ -8,14 +8,20 @@
  */
 
 // Provided code :
-const sourceObject = {
-  num: 42,
-  bool: true,
-  str: 'some text',
-  log: console.log,
+
+ const sourceObject = {
+ num: 42,
+ bool: true,
+ str: 'some text',
+ log: console.log,
 }
 
 // Your code :
+
+function get(keyword){
+return sourceObject[keyword];
+}
+
 
 //* Begin of tests
 const assert = require('assert')

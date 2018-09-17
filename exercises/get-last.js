@@ -9,6 +9,10 @@
 
 // Your code :
 
+function getLast(array) {
+	return array[array.length - 1];
+}
+
 //* Begin of tests
 const assert = require('assert')
 
